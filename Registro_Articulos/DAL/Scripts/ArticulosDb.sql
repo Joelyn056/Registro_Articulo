@@ -1,5 +1,7 @@
 CREATE DATABASE ArticulosDb
-
+GO
+USE ArticulosDb
+GO
 CREATE TABLE Articulos
 (
 	ArticuloId int primary key identity,
@@ -9,4 +11,3 @@ CREATE TABLE Articulos
 	Cantidad int,
 	CantidadCotizada int
 );
-Go
